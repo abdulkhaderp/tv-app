@@ -1,0 +1,95 @@
+.date-nav{
+    height: 60px;
+    background: #202020;
+    color: white;
+}
+.hour-range{
+    height: 40px;
+    background: #202020;
+    color: white;
+    border-top: 1px solid #696363;
+    border-bottom: 1px solid #696363;
+}
+
+.text-right{
+    float: right;
+}
+.time-needle{
+    background-color: yellow;
+    width: 1px;
+    height: calc(100% - 60px);
+    display: inline;
+    position: fixed;
+    z-index: 9;
+}
+.channel-wrapper{
+    /* height: calc(100% - 192px);
+    overflow-y: auto;
+    scroll-behavior: smooth; */
+   padding-top: 100px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.home-wrapper{
+padding-top: 90px;
+}
+.info-bar-wrapper{
+    position: fixed;
+    width: 100%;
+    top: 90px;
+    z-index: 9;
+}
+.footer-section{
+    height: 25px;
+    background: white;
+    z-index: 99;
+}
+#time-needle-wrapper span{
+    line-height: 34px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #ce4acb;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.favourite-icon{
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.favColor{
+    color:  #ce4acb;
+}
+.date-range-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.date-range-wrapper .date-item{
+    line-height: 25px;
+    text-align: center;
+}
+.highlight{
+    border-radius: 8px;
+    background: #cfcade;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: 500;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .date-range-wrapper .date-item{
+        display: none;
+    }
+    .date-range-wrapper .date-item.highlight{
+        display: block;
+    }
+  }

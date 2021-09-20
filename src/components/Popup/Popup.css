@@ -1,0 +1,16 @@
+.programPoster{
+    background: url("../../assets/friends.jpg") no-repeat;
+    width: 100%;
+    min-height: 200px;
+    background-size: contain;
+    background-position: center;
+}
+.modal-dialog{
+    max-width: 75% !important;
+}
+.modal-footer{
+    justify-content: center;
+}
+.modal-body{
+    background: #ece4e4;
+}

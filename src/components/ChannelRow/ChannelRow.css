@@ -1,0 +1,76 @@
+.channel-logo{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+
+}
+.schedule-list {
+    list-style-type: none;
+    white-space: nowrap;
+    overflow-x: auto;
+height: 100%;
+margin-bottom: 0 !important;
+position: relative;
+padding-left: 0;;
+}
+.schedule-list li{
+    height: 100%;
+    display: inline-block;
+    border-left: solid 1px #333030;
+    padding: 15px;
+    /* min-width: fit-content; */
+}
+.schedule-list li[data="1"]{
+ background-color:#202020;;
+}
+.schedule-list li:first-child{
+ 
+    border-left: none;
+}
+.single-channel-wrapper{
+    background: black;
+    color: white;
+    border-bottom: solid 1px #333030;
+}
+
+.schedule-list::-webkit-scrollbar {
+    height: 10px;
+}
+.schedule-list::-webkit-scrollbar:hover {
+    height: 14px;
+}
+
+/* Track */
+.schedule-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.schedule-list::-webkit-scrollbar-thumb {
+    background: rgb(87, 76, 76); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.schedule-list::-webkit-scrollbar-thumb:hover {
+    background: #494f50;
+}
+.channel-logo-col{
+    background: #202020;
+}
+.show-time{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.logo-container{
+    width: 100%;
+    margin: 5px;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+}
